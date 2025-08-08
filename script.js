@@ -98,3 +98,23 @@ pages.forEach((_, index) => {
 
     }, (index + 1) * 200 + 2100)
 })
+
+// WhatsApp send message logic
+const whatsappForm = document.getElementById("whatsappForm");
+
+if (whatsappForm) {
+    whatsappForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        const phoneNumber = "8110978757"; 
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+            `Hello, This is ${name}.\nEmail: ${email}\nMessage: ${message}`
+        )}`;
+
+        window.open(whatsappURL, "_blank");
+    });
+}
