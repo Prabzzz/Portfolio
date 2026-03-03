@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "lucide-react";
 import { projects } from "../constants";
+
 const cardVariants = {
   offscreen: {
     y: 50,
@@ -17,6 +18,7 @@ const cardVariants = {
     },
   },
 };
+
 const Projects = () => {
   return (
     <section id="projects" className="relative pt-22 font-['Poppins']">

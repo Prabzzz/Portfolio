@@ -32,6 +32,53 @@ export const navLinks = [
   },
 ];
 
+export const experiences = [
+  {
+    role: "Senior Full-Stack Developer",
+    company: "Diafoni Technology Services Pvt Ltd",
+    location: "Pondicherry, India",
+    date: "Mar 2026 – Present",
+    highlights: [
+      "Leading architecture for scalable AI-driven cloud platforms.",
+      "Optimized distributed systems improving overall performance by 35%.",
+      "Designed microfrontend ecosystem for faster feature releases.",
+      "Mentoring engineers and driving DevOps best practices across teams."
+    ],
+    skills: [
+      "System Design",
+      "Microfrontends",
+      "AWS Architecture",
+      "Performance Optimization",
+      "CI/CD Strategy",
+      "ChatBots & AI Services",
+      "Cloud Security",
+      "AI Integrations"
+    ]
+  },
+  {
+    role: "Cloud Full-Stack Developer",
+    company: "Diafoni Technology Services Pvt Ltd",
+    location: "Pondicherry, India",
+    date: "Mar 2024 – Feb 2026",
+    highlights: [
+      "Improved response time by 25% using AWS Lambda & API Gateway.",
+      "Built AI interview modules with Bedrock & Transcribe (+40% engagement).",
+      "Implemented OAuth 2.0 & Cognito authentication.",
+      "Reduced deployment errors by 40% via CI/CD automation."
+    ],
+    skills: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "AWS Lambda",
+      "API Gateway",
+      "Bedrock",
+      "Cognito",
+      "CI/CD"
+    ]
+  }
+];
+
 export const achievements = [
   {
     name: "Voice AI Hackathon Host & Organizer",
