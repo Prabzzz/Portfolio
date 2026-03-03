@@ -3,6 +3,7 @@ import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import prabha from '../assets/prabha.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -108,7 +109,7 @@ export default function Contact() {
           >
             <div className="w-[360px] h-[400px] rounded-2xl border border-zinc-300 overflow-hidden">
               <img
-                src="/prabha.jpg"
+                src={prabha}
                 alt="Prabhakaran"
                 className="w-full h-full object-cover"
               />
