@@ -22,7 +22,10 @@ export default function Experience() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold text-center text-black mb-16"
         >
-          Experience
+          <span className="inline-block">Experience</span>
+          <span className="block mt-3 text-lg font-normal text-gray-500">
+            Where I’ve applied my skills, solved real-world problems, and grown as a developer.
+          </span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-12">
