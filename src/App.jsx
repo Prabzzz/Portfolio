@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import StarCanvas from "./components/StarCanvas";
 import CustomCursor from './components/CustomCursor';
 import Preloader from "./components/Preloader";
+import Chatbot from "./components/chatbot";
 
 export default function App() {
   const mainRef = useRef(null);
@@ -59,6 +60,7 @@ export default function App() {
             <Contact />
             <StarCanvas />
           </section>
+          <Chatbot />
         </div>
       </div>
     </HashRouter>

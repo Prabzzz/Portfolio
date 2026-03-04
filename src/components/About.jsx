@@ -7,10 +7,10 @@ import { gsap } from 'gsap';
 const socialLinks = [
   { name: 'GitHub', icon: Github, href: 'https://github.com/Prabzzz', color: '#000000' },
   { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com/in/prabhakaran-j-55895a1a1/', color: '#0077b5' },
-  { name: 'Facebook', icon: Facebook, href: 'https://facebook.com/', color: '#1877f2' },
-  { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/', color: '#e1306c' },
+  { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/share/1GiCSPpFs5/', color: '#1877f2' },
+  { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/pk__prabha_?igsh=YjJoN2NyM3E5ZnAy/', color: '#e1306c' },
   { name: 'WhatsApp', icon: Phone, href: 'https://wa.me/+918110978757', color: '#25D366' },
-  { name: 'X', icon: Twitter, href: 'https://x.com/', color: '#1DA1F2' },
+  { name: 'X', icon: Twitter, href: 'https://x.com/PK_prabha_/', color: '#1DA1F2' },
 ];
 
 const cards = [
